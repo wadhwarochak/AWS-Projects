@@ -9,11 +9,11 @@ def lambda_handler(event, context):
         'body': json.dumps('Hello from Lambda!')
     }
 
+
 ====================================================================================
 Sum of two numbers
 
 import json
-
 def lambda_handler(event, context):
     # TODO implement
     a=2
